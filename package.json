@@ -1,0 +1,25 @@
+{
+  "name": "repo-template",
+  "version": "0.0.1",
+  "description": "Repositório Template",
+  "repository": "git@github.com:CMCuritiba/repo-template.git",
+  "author": "DTIC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "npm": "^10.7.0"
+  }
+}
